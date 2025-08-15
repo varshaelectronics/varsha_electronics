@@ -135,7 +135,7 @@ AOS.init({
         $("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
-                url:"https://script.google.com/macros/s/AKfycbznbzMgnlzQhrgoTP0wG5sljkxm0qOHHXwj8t-fb2OU2JUo_mdwBkk6dVvsOZOvoSuj/exec",
+                url:"https://script.google.com/macros/s/AKfycbznbzMgnlzQhrgoTP0wG5sljkxm0qOHHXwj8t-fb2OU2JUo_mdwBkk6dVvsOZOvoSuj/exec ",
                 data:$("#submit-form").serialize(),
                 method:"post",
                 
